@@ -13,7 +13,7 @@ import { Auth } from 'aws-amplify';
 function App() {
 
     const logout = async () => {
-       await Auth.signOut;     
+       await Auth.signOut();     
        window.location.reload();
     };
 
