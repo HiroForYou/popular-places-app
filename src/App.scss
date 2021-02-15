@@ -1,4 +1,9 @@
 .popular-places-app {
+    .toolbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .toolbar-title {
         margin: 10px 0px;
     }
